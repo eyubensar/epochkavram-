@@ -21,3 +21,25 @@ Projeyi klonlayın:
 
 git clone https://github.com/eyubensar/epochkavram-.git
 cd epochkavram-
+
+
+
+# YAŞ HESAPLAMA PROGRAMI
+
+Bu proje, kullanicidan alinan dogum tarihini epoch zamanina cevirerek yasini hesaplayan basit bir C programidir.
+
+🚀 Ozellikler
+
+Kullanici dogum tarihini girer.
+
+Girilen tarihi epoch zamanina cevirir.
+
+Dogum tarihi ile mevcut zaman arasindaki farki hesaplayarak yas bilgisini ekrana yazar.
+
+Kolay kullanimi ve hizli calismasi sayesinde pratik bir cozum sunar.
+
+🛠 Kullanilan Teknolojiler
+
+C Programlama Dili
+
+time.h kutuphanesi
