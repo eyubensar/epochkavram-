@@ -24,22 +24,12 @@ cd epochkavram-
 
 
 
-# YAŞ HESAPLAMA PROGRAMI
+# Voleybol Maçı Süre Hesaplayıcı
 
-Bu proje, kullanicidan alinan dogum tarihini epoch zamanina cevirerek yasini hesaplayan basit bir C programidir.
+Bu C programı, kullanıcının girdiği voleybol maçı başlangıç ve bitiş zamanlarını kullanarak maç süresini hesaplar. Ayrıca, bu zamanları epoch formatına dönüştürür.
 
-🚀 Ozellikler
+## Özellikler
+- Maçın başlangıç ve bitiş zamanlarını epoch formatına dönüştürür.
+- Geçen süreyi gün, saat ve dakika cinsinden hesaplar.
+- Zaman işlemleri için `mktime` ve `difftime` fonksiyonlarını kullanır.
 
-Kullanici dogum tarihini girer.
-
-Girilen tarihi epoch zamanina cevirir.
-
-Dogum tarihi ile mevcut zaman arasindaki farki hesaplayarak yas bilgisini ekrana yazar.
-
-Kolay kullanimi ve hizli calismasi sayesinde pratik bir cozum sunar.
-
-🛠 Kullanilan Teknolojiler
-
-C Programlama Dili
-
-time.h kutuphanesi
